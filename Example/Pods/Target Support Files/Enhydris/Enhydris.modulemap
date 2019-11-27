@@ -1,0 +1,6 @@
+framework module Enhydris {
+  umbrella header "Enhydris-umbrella.h"
+
+  export *
+  module * { export * }
+}

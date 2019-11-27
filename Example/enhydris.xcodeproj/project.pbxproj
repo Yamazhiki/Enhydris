@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A91F5F795B3AF6028AB9E7C /* EHSTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FB88DAAA38F7E6DBC2B2 /* EHSTestComponent.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		0FC1CCB1A2A679786CBC709C /* Pods_enhydris_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enhydris_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A91FACED0C9C5EAA0456AAA /* EHSTestComponentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHSTestComponentType.h; sourceTree = "<group>"; };
+		1A91FB88DAAA38F7E6DBC2B2 /* EHSTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHSTestComponent.m; sourceTree = "<group>"; };
+		1A91FE67400122FC8B3D7652 /* EHSTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHSTestComponent.h; sourceTree = "<group>"; };
 		1D0E84970816E9ADA5D43C45 /* enhydris.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = enhydris.podspec; path = ../enhydris.podspec; sourceTree = "<group>"; };
 		24FABC7290E63A9833E71667 /* Pods_enhydris_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enhydris_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3096C94E660266631371673C /* Pods-enhydris_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enhydris_Example.release.xcconfig"; path = "Target Support Files/Pods-enhydris_Example/Pods-enhydris_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +111,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		1A91FFD0AEDEE07C419088F9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1A91FB88DAAA38F7E6DBC2B2 /* EHSTestComponent.m */,
+				1A91FE67400122FC8B3D7652 /* EHSTestComponent.h */,
+				1A91FACED0C9C5EAA0456AAA /* EHSTestComponentType.h */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +166,7 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				1A91FFD0AEDEE07C419088F9 /* Component */,
 			);
 			name = "Example for enhydris";
 			path = enhydris;
@@ -346,11 +361,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-enhydris_Example/Pods-enhydris_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/enhydris/enhydris.framework",
+				"${BUILT_PRODUCTS_DIR}/Enhydris/Enhydris.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/enhydris.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Enhydris.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +382,7 @@
 				6003F59E195388D20070C39A /* EHSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* EHSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1A91F5F795B3AF6028AB9E7C /* EHSTestComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
