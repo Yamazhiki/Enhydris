@@ -143,7 +143,7 @@
 		B6624678C4D50DC0AC61C77E4450ADA0 /* ModuleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleFactory.h; sourceTree = "<group>"; };
 		B6D09509BA7415FF73CE6A7795304D79 /* ModuleDefinition+Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Generator.h"; sourceTree = "<group>"; };
 		B870299EED94D3505D1FF2FF78204C49 /* Pods-enhydris_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-enhydris_Tests.modulemap"; sourceTree = "<group>"; };
-		C10F2156F7BB785FB1803DD14B0009E7 /* enhydris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = enhydris.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C10F2156F7BB785FB1803DD14B0009E7 /* Enhydris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = file.podspec; path = Enhydris.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1DCA663E36EF9D508C16D88EB1CC808 /* Pods-enhydris_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-enhydris_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C6FA575809007D22741B25DE189BE436 /* ModuleConfigCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigCollector.m; sourceTree = "<group>"; };
 		C801EC84FBC0A8A247E509E418C7BF95 /* ModuleDefinition+Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Generator.m"; sourceTree = "<group>"; };
@@ -222,7 +222,7 @@
 		4315BBC36609211F41365780ED394A56 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C10F2156F7BB785FB1803DD14B0009E7 /* enhydris.podspec */,
+				C10F2156F7BB785FB1803DD14B0009E7 /* Enhydris.podspec */,
 				DFF1BEF70E6A3BAA42893455D1BE241B /* LICENSE */,
 				2910ECF8D4BC458B4FF1D97037797A37 /* README.md */,
 			);
