@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010F3D19B6833523DD42D15597DFF0E7 /* ModuleDefinition+Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D09509BA7415FF73CE6A7795304D79 /* ModuleDefinition+Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0964F60B75333351856EBC4A62FCFB3C /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E6794459CB6323F2E83CBCD0E3D7CB58 /* ModuleProvider.m */; };
+		0A8766621085E6EEFC7BAE36BF3BBDAC /* ModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E11252C13F962EC407784BA94CAC5C /* ModuleFactory.m */; };
+		0A97ECF21FF327A7A03FD004C5DA3A5E /* AutoInject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E34900F76B5D2E953AE59FE414DF1A8 /* AutoInject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE34A56F549184009840DE366A3B915 /* ModuleDefinition+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA69E8B6F9DF935FC575F233FD67DA0 /* ModuleDefinition+Internal.m */; };
+		106CC0BF1E260DF9B9230C7F55DC3D61 /* PropertyProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271F3061E257948C84107B972766B3A /* PropertyProcessor.m */; };
+		1ABCF504F980B06FAB223F4E85F4E11F /* ModuleExportType.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C595DE64318290D7077EBE4C308B9D /* ModuleExportType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC708D3501F975E2103BF8402E5D9B6 /* ModuleAutoInjectToProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DACDA9DA2BF65CD300C8DA8A734B77 /* ModuleAutoInjectToProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE4A4EFECC4056553D51647A2F87075 /* ModuleConfigurationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F0C1B1358A3FCEBBC746B82F49A4B /* ModuleConfigurationProcessor.m */; };
+		3009AECD161D8ADF3868A065214CAD79 /* UINavigationController+ModuleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D781A441DBA6E11BBC93DE4F253EFB /* UINavigationController+ModuleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AD2BF4CD8D4A6D7A2400588230B886 /* ModuleJsonConfigProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E67C9A904211009BA5B9F0B4F762C /* ModuleJsonConfigProcessor.m */; };
+		32DE5D272C292C15E3A2C761EA79242B /* ModuleSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F43C51441C72D81DAEE12E24D11F037 /* ModuleSetup.m */; };
+		369A290C439AFE1A89ECA4111B76D4CE /* ModuleDefinition+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEC38BAF3F3B649D28D9ACA31974590 /* ModuleDefinition+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36BC6FD29521A077696102C46B0DE9CF /* Pods-enhydris_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C1B8B2C11D006336389E4B89D55F3 /* Pods-enhydris_Tests-dummy.m */; };
+		375F8DD7C1E0615E7FCBFDB7BDE805DD /* ModuleConfigurationProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4750D44E450FC8513449F1D7D65CF90B /* ModuleConfigurationProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376F2FB186C4DE522C68925C1C7F4243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A07D6EE48C51EBCF969630325444549 /* ModuleCreatorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3AF1E5F6457025DC9EC51EFE9400D5 /* ModuleCreatorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAE53A0AC53063917E55510C67493D9 /* ModuleProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8C28E02A4B97501819AEF59AFF2795 /* ModuleProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E30F303DE4AC21722553F1FA2F38A09 /* ModuleConfigCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3E5EECE02C207F336AA34F053C0C17 /* ModuleConfigCollector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4889DB063DF9B4EFCA0738AF49CCDAB9 /* ModuleJsonConfigProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2D7EB7EBEA824654479485EA48B192 /* ModuleJsonConfigProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A142D49BD425B893EEC75F673238409 /* ParamDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D964A1188E1D67D63ABBC4D9DDC535 /* ParamDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5025444E64BAB1C0F6ED45D46C699A85 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = C801EC84FBC0A8A247E509E418C7BF95 /* ModuleDefinition+Generator.m */; };
+		503916A9A5083E07C35E9615894567F8 /* ModuleSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F62DDCE2089EBD1125A7F333836594 /* ModuleSetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5074C61DFBC60CDA8783662DDB41C8E4 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A939832678F5AB61D4FD2BDFFE9EEB58 /* ModuleConfig.m */; };
+		58143F0A902AC2C6603362CDA2257FCA /* ModuleConfigProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 42480F8B0E86FEA632B724DC074B35E8 /* ModuleConfigProcessorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6957A5C9C466C7C56E6B3030C7EBC61E /* ModuleResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE9706D1BB8FD4DE58D4E0E0DFD963D /* ModuleResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		698C31A146E6CAFC5388C0F8853A04B7 /* AutoInjectFactoryProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DA21C963E51F2AE1C42E4B58F8E3F /* AutoInjectFactoryProcessor.m */; };
+		6A410776C2AF2524375A5ADD699A2956 /* AutoInjectFactoryProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = D7735E511EFE15B040BFD33FB94A4533 /* AutoInjectFactoryProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C224C06C1A48764C2A440C2C51C858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77D3FE10DC6C2A72EE006AF96CD7A4B7 /* ModuleDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9E41DA1D7FE0D0FA3FA863015BE543 /* ModuleDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798573B5E854A796B5FD561B3EB4A9C1 /* AutoInject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51139202302AE2E76F5C5D387DF9DC /* AutoInject.m */; };
+		7FDE8C863E683EAC5A77FAC06DD5207A /* Pods-enhydris_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33055E6CCFE22359DC65F5EA9A999A28 /* Pods-enhydris_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89511B245A7E8C8A7435EE2966C9E872 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58BF8925F7AA4EE9713DA5A19A6C04 /* ModuleResponse.m */; };
+		8C92B3B3EA777ADE2653C74EAE7F2C9F /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E1A25A37FDFD88617711581F49330 /* MethodDefinition.m */; };
+		8CD50422FC625298EC3E14FBF624C2D4 /* ModuleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B6624678C4D50DC0AC61C77E4450ADA0 /* ModuleFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C1B4A2BC4AA1D658B99ACC8CF3879D /* Pods-enhydris_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DCA663E36EF9D508C16D88EB1CC808 /* Pods-enhydris_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		969A6C788E023FABE3432C9CDF88BC8E /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FBF0971786C43CEFDB0A0995883F0F /* ModuleAutoInjectToProperty.m */; };
+		97DF3FC97C9DB5D6C1AAFFE6D8F04494 /* ModuleProcessorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C45A26AABEB59CAC0E6560423A0004 /* ModuleProcessorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA2AE889EE2DBB73004C8CD4EFF9B6F /* AutoDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CE130D883AAC358CD3F0B99DC2EB0 /* AutoDescribe.m */; };
+		A011F8D21A135F527E496987F4B5BA83 /* ModuleConfigProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA54FB424D7261E013CCDEA77A3B552D /* ModuleConfigProcessorFactory.m */; };
+		A229DB0F423EC6609F798AEFEB8F295A /* Enhydris-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C11F9DF588F97A922A2B2682EFB4E99 /* Enhydris-dummy.m */; };
+		A6783371EC63A19577562C927FBF52E1 /* Pods-enhydris_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3718F4DB9BCA86000F094601BDEC41EB /* Pods-enhydris_Example-dummy.m */; };
+		A87FFA93CA9A2EB6B2B11E8FEC8F6B91 /* ModuleConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FA575809007D22741B25DE189BE436 /* ModuleConfigCollector.m */; };
+		BAD9256FC23ADFDD458B53695915A582 /* PropertyProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = C859CAC483681FF078035D3619404C31 /* PropertyProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0FF431C4A7C4EDEE1917A9E96393C1 /* ModuleDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D84DABB48D427385FE7C83D54CC0066 /* ModuleDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDAF68265420CC8163410D5AF13A2889 /* ModuleDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = ED803133A4AC5BD56C5516F33CCF46C1 /* ModuleDefine.m */; };
+		CFFD1CC54A953A123FE4B83C9A13C892 /* MethodDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A101EE443C4E45E2AECB950BE5B5CE /* MethodDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D221165D1750E38218E4F030005872C0 /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6AB102A7FC4C8CB2BC2E32060AD3E9 /* ModuleDefinition.m */; };
+		D4C8BF43B23CD709BD3E93C4582236F0 /* ModulePropertyListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F248239AA70B8CBE5A7F332F8ABC8AE /* ModulePropertyListProcessor.m */; };
+		D6A4A6B155759B69FECA8DC1AADE5EEA /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1EDA4FCF261DA2F9D83C0A2022749 /* ParamDefinition.m */; };
+		D6C7773619C5402073C0EA606A519F09 /* ModuleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAF2AC461BC541BCA7F9806A5D0B44D /* ModuleConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CFFC032B98A41FCA3C01DFF4FF1048 /* MainViewControllerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 714929BD3FEEE4F46DB714778F88C6F8 /* MainViewControllerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB769F67892838B6128C9119FFAB41AF /* Enhydris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA36B4B833BF8183CA514300C9B82F /* Enhydris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7DA1D9015B1CDA7E5601E2400E6D41 /* ModulePropertyListProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EEF9E2D07EB28367A54FDF001E586F /* ModulePropertyListProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E192E7A52F68659D47DA371BBB422003 /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F696084BC6987C33AB5BD4DEC408D32 /* UINavigationController+ModuleAction.m */; };
+		F3228779EE4AAD0963B27998EA4B944E /* AutoDescribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 392C39ED16215BD8639FAA485D8B4DD4 /* AutoDescribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9D9CF2C6F9B3F4048338F9721C19EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B8D0FD2027A72208F7A12AA8647246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941668452FD08DFE56FE500DC7EE1E1A;
+			remoteInfo = "Pods-enhydris_Example";
+		};
+		9551D5067C0FF2BB50FE347D4D452418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F10EC2D21BB6B8F7A05F1E5168D28D7;
+			remoteInfo = Enhydris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DB25503313D4DF77C17B4E59115DA8 /* Pods-enhydris_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enhydris_Example.release.xcconfig"; sourceTree = "<group>"; };
+		05DACDA9DA2BF65CD300C8DA8A734B77 /* ModuleAutoInjectToProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleAutoInjectToProperty.h; sourceTree = "<group>"; };
+		06EEF9E2D07EB28367A54FDF001E586F /* ModulePropertyListProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModulePropertyListProcessor.h; sourceTree = "<group>"; };
+		07DA36B4B833BF8183CA514300C9B82F /* Enhydris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Enhydris-umbrella.h"; sourceTree = "<group>"; };
+		089EA3A3DECEB7642AEF6FFCE9BA3216 /* Pods-enhydris_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enhydris_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0A51139202302AE2E76F5C5D387DF9DC /* AutoInject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoInject.m; sourceTree = "<group>"; };
+		0BEC38BAF3F3B649D28D9ACA31974590 /* ModuleDefinition+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Internal.h"; sourceTree = "<group>"; };
+		0D84DABB48D427385FE7C83D54CC0066 /* ModuleDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleDefine.h; path = enhydris/Classes/ModuleDefine.h; sourceTree = "<group>"; };
+		0DB1EDA4FCF261DA2F9D83C0A2022749 /* ParamDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ParamDefinition.m; sourceTree = "<group>"; };
+		0F248239AA70B8CBE5A7F332F8ABC8AE /* ModulePropertyListProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModulePropertyListProcessor.m; sourceTree = "<group>"; };
+		13DE7E36EE195D378DBD66604A216DDB /* Pods-enhydris_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enhydris_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CB62299374966297EED9F76112FF998 /* Pods-enhydris_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-enhydris_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2910ECF8D4BC458B4FF1D97037797A37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C5DA21C963E51F2AE1C42E4B58F8E3F /* AutoInjectFactoryProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoInjectFactoryProcessor.m; sourceTree = "<group>"; };
+		2D8C28E02A4B97501819AEF59AFF2795 /* ModuleProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleProvider.h; path = enhydris/Classes/ModuleProvider.h; sourceTree = "<group>"; };
+		2E34900F76B5D2E953AE59FE414DF1A8 /* AutoInject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoInject.h; sourceTree = "<group>"; };
+		31F62DDCE2089EBD1125A7F333836594 /* ModuleSetup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleSetup.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33055E6CCFE22359DC65F5EA9A999A28 /* Pods-enhydris_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-enhydris_Example-umbrella.h"; sourceTree = "<group>"; };
+		3718F4DB9BCA86000F094601BDEC41EB /* Pods-enhydris_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-enhydris_Example-dummy.m"; sourceTree = "<group>"; };
+		373920A2967A2C8DEB3D19D03C28985B /* Pods-enhydris_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enhydris_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		392C39ED16215BD8639FAA485D8B4DD4 /* AutoDescribe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoDescribe.h; sourceTree = "<group>"; };
+		3D3283D5590B0F2A90510ED9C24CD155 /* Enhydris-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Enhydris-Info.plist"; sourceTree = "<group>"; };
+		42480F8B0E86FEA632B724DC074B35E8 /* ModuleConfigProcessorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleConfigProcessorFactory.h; sourceTree = "<group>"; };
+		4750D44E450FC8513449F1D7D65CF90B /* ModuleConfigurationProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleConfigurationProcessor.h; sourceTree = "<group>"; };
+		4C11F9DF588F97A922A2B2682EFB4E99 /* Enhydris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Enhydris-dummy.m"; sourceTree = "<group>"; };
+		4C1C1B8B2C11D006336389E4B89D55F3 /* Pods-enhydris_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-enhydris_Tests-dummy.m"; sourceTree = "<group>"; };
+		4D6CE130D883AAC358CD3F0B99DC2EB0 /* AutoDescribe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoDescribe.m; sourceTree = "<group>"; };
+		4F58BF8925F7AA4EE9713DA5A19A6C04 /* ModuleResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleResponse.m; path = enhydris/Classes/ModuleResponse.m; sourceTree = "<group>"; };
+		5271F3061E257948C84107B972766B3A /* PropertyProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PropertyProcessor.m; sourceTree = "<group>"; };
+		5AE9706D1BB8FD4DE58D4E0E0DFD963D /* ModuleResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleResponse.h; path = enhydris/Classes/ModuleResponse.h; sourceTree = "<group>"; };
+		5F696084BC6987C33AB5BD4DEC408D32 /* UINavigationController+ModuleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ModuleAction.m"; sourceTree = "<group>"; };
+		5FD8E7376719FE88067B02C149FD55AD /* Pods-enhydris_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enhydris_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		66193E5C26511020056828A1BD322520 /* Pods_enhydris_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_enhydris_Tests.framework; path = "Pods-enhydris_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661E67C9A904211009BA5B9F0B4F762C /* ModuleJsonConfigProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleJsonConfigProcessor.m; sourceTree = "<group>"; };
+		6918DD7E54576760902CB4B0340E51FA /* Pods-enhydris_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E2D7EB7EBEA824654479485EA48B192 /* ModuleJsonConfigProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleJsonConfigProcessor.h; sourceTree = "<group>"; };
+		714929BD3FEEE4F46DB714778F88C6F8 /* MainViewControllerType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewControllerType.h; sourceTree = "<group>"; };
+		88A9E30856FB857A34845CA463E0911A /* Pods_enhydris_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_enhydris_Example.framework; path = "Pods-enhydris_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3AF1E5F6457025DC9EC51EFE9400D5 /* ModuleCreatorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCreatorType.h; path = enhydris/Classes/ModuleCreatorType.h; sourceTree = "<group>"; };
+		8F43C51441C72D81DAEE12E24D11F037 /* ModuleSetup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleSetup.m; sourceTree = "<group>"; };
+		95CD472D86812AE89B4D020AE0FBBDDD /* Pods-enhydris_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-enhydris_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98BC9138773678027153A3B2E09AC4C6 /* Pods-enhydris_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Tests-Info.plist"; sourceTree = "<group>"; };
+		98C45A26AABEB59CAC0E6560423A0004 /* ModuleProcessorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleProcessorType.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA9AB40496F4EA63FE873AC069E7B41 /* Pods-enhydris_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-enhydris_Example.modulemap"; sourceTree = "<group>"; };
+		9E6AB102A7FC4C8CB2BC2E32060AD3E9 /* ModuleDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleDefinition.m; sourceTree = "<group>"; };
+		A0D781A441DBA6E11BBC93DE4F253EFB /* UINavigationController+ModuleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ModuleAction.h"; sourceTree = "<group>"; };
+		A0E11252C13F962EC407784BA94CAC5C /* ModuleFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleFactory.m; sourceTree = "<group>"; };
+		A4D964A1188E1D67D63ABBC4D9DDC535 /* ParamDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParamDefinition.h; sourceTree = "<group>"; };
+		A939832678F5AB61D4FD2BDFFE9EEB58 /* ModuleConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleConfig.m; sourceTree = "<group>"; };
+		A9C753DEBD3D034C90B4AF3EA3A037D3 /* Enhydris.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Enhydris.xcconfig; sourceTree = "<group>"; };
+		AD9E41DA1D7FE0D0FA3FA863015BE543 /* ModuleDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleDefinition.h; sourceTree = "<group>"; };
+		B0C595DE64318290D7077EBE4C308B9D /* ModuleExportType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleExportType.h; path = enhydris/Classes/ModuleExportType.h; sourceTree = "<group>"; };
+		B3A101EE443C4E45E2AECB950BE5B5CE /* MethodDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MethodDefinition.h; sourceTree = "<group>"; };
+		B4FBF0971786C43CEFDB0A0995883F0F /* ModuleAutoInjectToProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleAutoInjectToProperty.m; sourceTree = "<group>"; };
+		B6624678C4D50DC0AC61C77E4450ADA0 /* ModuleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleFactory.h; sourceTree = "<group>"; };
+		B6D09509BA7415FF73CE6A7795304D79 /* ModuleDefinition+Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Generator.h"; sourceTree = "<group>"; };
+		B870299EED94D3505D1FF2FF78204C49 /* Pods-enhydris_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-enhydris_Tests.modulemap"; sourceTree = "<group>"; };
+		C10F2156F7BB785FB1803DD14B0009E7 /* enhydris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = enhydris.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1DCA663E36EF9D508C16D88EB1CC808 /* Pods-enhydris_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-enhydris_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C6FA575809007D22741B25DE189BE436 /* ModuleConfigCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigCollector.m; sourceTree = "<group>"; };
+		C801EC84FBC0A8A247E509E418C7BF95 /* ModuleDefinition+Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Generator.m"; sourceTree = "<group>"; };
+		C859CAC483681FF078035D3619404C31 /* PropertyProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PropertyProcessor.h; sourceTree = "<group>"; };
+		CA54FB424D7261E013CCDEA77A3B552D /* ModuleConfigProcessorFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigProcessorFactory.m; sourceTree = "<group>"; };
+		CBA69E8B6F9DF935FC575F233FD67DA0 /* ModuleDefinition+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Internal.m"; sourceTree = "<group>"; };
+		D18E1A25A37FDFD88617711581F49330 /* MethodDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MethodDefinition.m; sourceTree = "<group>"; };
+		D7735E511EFE15B040BFD33FB94A4533 /* AutoInjectFactoryProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoInjectFactoryProcessor.h; sourceTree = "<group>"; };
+		D87E2E72B6F2764C47C689D93EB30694 /* Pods-enhydris_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Example-Info.plist"; sourceTree = "<group>"; };
+		DF92C5DF50F529987787A0DAB91F64BA /* Pods-enhydris_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFF1BEF70E6A3BAA42893455D1BE241B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6794459CB6323F2E83CBCD0E3D7CB58 /* ModuleProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleProvider.m; path = enhydris/Classes/ModuleProvider.m; sourceTree = "<group>"; };
+		EB4119A55DBD8C27C593CA1BE0A60E68 /* Enhydris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Enhydris.framework; path = Enhydris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED803133A4AC5BD56C5516F33CCF46C1 /* ModuleDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleDefine.m; path = enhydris/Classes/ModuleDefine.m; sourceTree = "<group>"; };
+		EE87DDF2E759157E5C31D2A79BD946DB /* Enhydris-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Enhydris-prefix.pch"; sourceTree = "<group>"; };
+		F2ACB5BBB65DD20697D1F97FA38E3742 /* Enhydris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Enhydris.modulemap; sourceTree = "<group>"; };
+		F57F0C1B1358A3FCEBBC746B82F49A4B /* ModuleConfigurationProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigurationProcessor.m; sourceTree = "<group>"; };
+		FAAF2AC461BC541BCA7F9806A5D0B44D /* ModuleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleConfig.h; sourceTree = "<group>"; };
+		FB3E5EECE02C207F336AA34F053C0C17 /* ModuleConfigCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleConfigCollector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0040A9A799BB34064E55D9291D98D070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C224C06C1A48764C2A440C2C51C858 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85238C6CFD5F6E89579CF5E50D1A16E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9D9CF2C6F9B3F4048338F9721C19EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884685B0B5BD23BE9A683366225C24C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376F2FB186C4DE522C68925C1C7F4243 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05EE0C4942174C9F5CEE6DE46E752211 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B13F065C34798BB18B22F7930CE72C /* Pods-enhydris_Example */,
+				CD22CFD51487207CE41B8709587E8AB3 /* Pods-enhydris_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17B13F065C34798BB18B22F7930CE72C /* Pods-enhydris_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9DA9AB40496F4EA63FE873AC069E7B41 /* Pods-enhydris_Example.modulemap */,
+				95CD472D86812AE89B4D020AE0FBBDDD /* Pods-enhydris_Example-acknowledgements.markdown */,
+				DF92C5DF50F529987787A0DAB91F64BA /* Pods-enhydris_Example-acknowledgements.plist */,
+				3718F4DB9BCA86000F094601BDEC41EB /* Pods-enhydris_Example-dummy.m */,
+				13DE7E36EE195D378DBD66604A216DDB /* Pods-enhydris_Example-frameworks.sh */,
+				D87E2E72B6F2764C47C689D93EB30694 /* Pods-enhydris_Example-Info.plist */,
+				33055E6CCFE22359DC65F5EA9A999A28 /* Pods-enhydris_Example-umbrella.h */,
+				5FD8E7376719FE88067B02C149FD55AD /* Pods-enhydris_Example.debug.xcconfig */,
+				00DB25503313D4DF77C17B4E59115DA8 /* Pods-enhydris_Example.release.xcconfig */,
+			);
+			name = "Pods-enhydris_Example";
+			path = "Target Support Files/Pods-enhydris_Example";
+			sourceTree = "<group>";
+		};
+		4315BBC36609211F41365780ED394A56 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C10F2156F7BB785FB1803DD14B0009E7 /* enhydris.podspec */,
+				DFF1BEF70E6A3BAA42893455D1BE241B /* LICENSE */,
+				2910ECF8D4BC458B4FF1D97037797A37 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4CE237E24F79CD308E006052C3B84AA0 /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				B3A101EE443C4E45E2AECB950BE5B5CE /* MethodDefinition.h */,
+				D18E1A25A37FDFD88617711581F49330 /* MethodDefinition.m */,
+				AD9E41DA1D7FE0D0FA3FA863015BE543 /* ModuleDefinition.h */,
+				9E6AB102A7FC4C8CB2BC2E32060AD3E9 /* ModuleDefinition.m */,
+				A4D964A1188E1D67D63ABBC4D9DDC535 /* ParamDefinition.h */,
+				0DB1EDA4FCF261DA2F9D83C0A2022749 /* ParamDefinition.m */,
+				ED2987EA177705730292972E860BAB65 /* Internal */,
+			);
+			name = Definition;
+			path = enhydris/Classes/Definition;
+			sourceTree = "<group>";
+		};
+		5AF279A62D3BB035CAAD18BB767A638B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2ACB5BBB65DD20697D1F97FA38E3742 /* Enhydris.modulemap */,
+				A9C753DEBD3D034C90B4AF3EA3A037D3 /* Enhydris.xcconfig */,
+				4C11F9DF588F97A922A2B2682EFB4E99 /* Enhydris-dummy.m */,
+				3D3283D5590B0F2A90510ED9C24CD155 /* Enhydris-Info.plist */,
+				EE87DDF2E759157E5C31D2A79BD946DB /* Enhydris-prefix.pch */,
+				07DA36B4B833BF8183CA514300C9B82F /* Enhydris-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Enhydris";
+			sourceTree = "<group>";
+		};
+		660CE430A43852A44E6174EF3E60A2EA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A0D781A441DBA6E11BBC93DE4F253EFB /* UINavigationController+ModuleAction.h */,
+				5F696084BC6987C33AB5BD4DEC408D32 /* UINavigationController+ModuleAction.m */,
+			);
+			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A232C1386BA2A1E8CAEF0072F0B5C446 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF2AC461BC541BCA7F9806A5D0B44D /* ModuleConfig.h */,
+				A939832678F5AB61D4FD2BDFFE9EEB58 /* ModuleConfig.m */,
+				FB3E5EECE02C207F336AA34F053C0C17 /* ModuleConfigCollector.h */,
+				C6FA575809007D22741B25DE189BE436 /* ModuleConfigCollector.m */,
+				42480F8B0E86FEA632B724DC074B35E8 /* ModuleConfigProcessorFactory.h */,
+				CA54FB424D7261E013CCDEA77A3B552D /* ModuleConfigProcessorFactory.m */,
+				4750D44E450FC8513449F1D7D65CF90B /* ModuleConfigurationProcessor.h */,
+				F57F0C1B1358A3FCEBBC746B82F49A4B /* ModuleConfigurationProcessor.m */,
+				31F62DDCE2089EBD1125A7F333836594 /* ModuleSetup.h */,
+				8F43C51441C72D81DAEE12E24D11F037 /* ModuleSetup.m */,
+				CF149EC62A05C32A6F2773E6574D2A5E /* Processor */,
+			);
+			name = Configuration;
+			path = enhydris/Classes/Configuration;
+			sourceTree = "<group>";
+		};
+		A43B6035A6C1D2F20EEC10A35D3D597B /* Inject */ = {
+			isa = PBXGroup;
+			children = (
+				392C39ED16215BD8639FAA485D8B4DD4 /* AutoDescribe.h */,
+				4D6CE130D883AAC358CD3F0B99DC2EB0 /* AutoDescribe.m */,
+				2E34900F76B5D2E953AE59FE414DF1A8 /* AutoInject.h */,
+				0A51139202302AE2E76F5C5D387DF9DC /* AutoInject.m */,
+			);
+			name = Inject;
+			path = enhydris/Classes/Inject;
+			sourceTree = "<group>";
+		};
+		A799E0314E28D2AB7FC1172ED3661955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4119A55DBD8C27C593CA1BE0A60E68 /* Enhydris.framework */,
+				88A9E30856FB857A34845CA463E0911A /* Pods_enhydris_Example.framework */,
+				66193E5C26511020056828A1BD322520 /* Pods_enhydris_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A519843AFCCD85A1F6B7AF66A4E822 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D7735E511EFE15B040BFD33FB94A4533 /* AutoInjectFactoryProcessor.h */,
+				2C5DA21C963E51F2AE1C42E4B58F8E3F /* AutoInjectFactoryProcessor.m */,
+				05DACDA9DA2BF65CD300C8DA8A734B77 /* ModuleAutoInjectToProperty.h */,
+				B4FBF0971786C43CEFDB0A0995883F0F /* ModuleAutoInjectToProperty.m */,
+				B6624678C4D50DC0AC61C77E4450ADA0 /* ModuleFactory.h */,
+				A0E11252C13F962EC407784BA94CAC5C /* ModuleFactory.m */,
+			);
+			name = Factory;
+			path = enhydris/Classes/Factory;
+			sourceTree = "<group>";
+		};
+		B4FBD75A84CCA779C6E46DC8AEBBA033 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2E615276488DB67F22F4F20385FA4E7 /* Enhydris */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2E615276488DB67F22F4F20385FA4E7 /* Enhydris */ = {
+			isa = PBXGroup;
+			children = (
+				8E3AF1E5F6457025DC9EC51EFE9400D5 /* ModuleCreatorType.h */,
+				0D84DABB48D427385FE7C83D54CC0066 /* ModuleDefine.h */,
+				ED803133A4AC5BD56C5516F33CCF46C1 /* ModuleDefine.m */,
+				B0C595DE64318290D7077EBE4C308B9D /* ModuleExportType.h */,
+				2D8C28E02A4B97501819AEF59AFF2795 /* ModuleProvider.h */,
+				E6794459CB6323F2E83CBCD0E3D7CB58 /* ModuleProvider.m */,
+				5AE9706D1BB8FD4DE58D4E0E0DFD963D /* ModuleResponse.h */,
+				4F58BF8925F7AA4EE9713DA5A19A6C04 /* ModuleResponse.m */,
+				A232C1386BA2A1E8CAEF0072F0B5C446 /* Configuration */,
+				4CE237E24F79CD308E006052C3B84AA0 /* Definition */,
+				B3A519843AFCCD85A1F6B7AF66A4E822 /* Factory */,
+				A43B6035A6C1D2F20EEC10A35D3D597B /* Inject */,
+				4315BBC36609211F41365780ED394A56 /* Pod */,
+				5AF279A62D3BB035CAAD18BB767A638B /* Support Files */,
+				CBFACFA52A643BE5F02CBF69C00A6699 /* Utils */,
+			);
+			name = Enhydris;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CBFACFA52A643BE5F02CBF69C00A6699 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				714929BD3FEEE4F46DB714778F88C6F8 /* MainViewControllerType.h */,
+				C859CAC483681FF078035D3619404C31 /* PropertyProcessor.h */,
+				5271F3061E257948C84107B972766B3A /* PropertyProcessor.m */,
+				660CE430A43852A44E6174EF3E60A2EA /* UIKit */,
+			);
+			name = Utils;
+			path = enhydris/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		CD22CFD51487207CE41B8709587E8AB3 /* Pods-enhydris_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B870299EED94D3505D1FF2FF78204C49 /* Pods-enhydris_Tests.modulemap */,
+				1CB62299374966297EED9F76112FF998 /* Pods-enhydris_Tests-acknowledgements.markdown */,
+				6918DD7E54576760902CB4B0340E51FA /* Pods-enhydris_Tests-acknowledgements.plist */,
+				4C1C1B8B2C11D006336389E4B89D55F3 /* Pods-enhydris_Tests-dummy.m */,
+				98BC9138773678027153A3B2E09AC4C6 /* Pods-enhydris_Tests-Info.plist */,
+				C1DCA663E36EF9D508C16D88EB1CC808 /* Pods-enhydris_Tests-umbrella.h */,
+				373920A2967A2C8DEB3D19D03C28985B /* Pods-enhydris_Tests.debug.xcconfig */,
+				089EA3A3DECEB7642AEF6FFCE9BA3216 /* Pods-enhydris_Tests.release.xcconfig */,
+			);
+			name = "Pods-enhydris_Tests";
+			path = "Target Support Files/Pods-enhydris_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B4FBD75A84CCA779C6E46DC8AEBBA033 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A799E0314E28D2AB7FC1172ED3661955 /* Products */,
+				05EE0C4942174C9F5CEE6DE46E752211 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF149EC62A05C32A6F2773E6574D2A5E /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				6E2D7EB7EBEA824654479485EA48B192 /* ModuleJsonConfigProcessor.h */,
+				661E67C9A904211009BA5B9F0B4F762C /* ModuleJsonConfigProcessor.m */,
+				98C45A26AABEB59CAC0E6560423A0004 /* ModuleProcessorType.h */,
+				06EEF9E2D07EB28367A54FDF001E586F /* ModulePropertyListProcessor.h */,
+				0F248239AA70B8CBE5A7F332F8ABC8AE /* ModulePropertyListProcessor.m */,
+			);
+			name = Processor;
+			path = Processor;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED2987EA177705730292972E860BAB65 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				B6D09509BA7415FF73CE6A7795304D79 /* ModuleDefinition+Generator.h */,
+				C801EC84FBC0A8A247E509E418C7BF95 /* ModuleDefinition+Generator.m */,
+				0BEC38BAF3F3B649D28D9ACA31974590 /* ModuleDefinition+Internal.h */,
+				CBA69E8B6F9DF935FC575F233FD67DA0 /* ModuleDefinition+Internal.m */,
+			);
+			name = Internal;
+			path = Internal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		688C34379F0A52D3B6CD11164AA28671 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3228779EE4AAD0963B27998EA4B944E /* AutoDescribe.h in Headers */,
+				0A97ECF21FF327A7A03FD004C5DA3A5E /* AutoInject.h in Headers */,
+				6A410776C2AF2524375A5ADD699A2956 /* AutoInjectFactoryProcessor.h in Headers */,
+				DB769F67892838B6128C9119FFAB41AF /* Enhydris-umbrella.h in Headers */,
+				D7CFFC032B98A41FCA3C01DFF4FF1048 /* MainViewControllerType.h in Headers */,
+				CFFD1CC54A953A123FE4B83C9A13C892 /* MethodDefinition.h in Headers */,
+				1CC708D3501F975E2103BF8402E5D9B6 /* ModuleAutoInjectToProperty.h in Headers */,
+				D6C7773619C5402073C0EA606A519F09 /* ModuleConfig.h in Headers */,
+				3E30F303DE4AC21722553F1FA2F38A09 /* ModuleConfigCollector.h in Headers */,
+				58143F0A902AC2C6603362CDA2257FCA /* ModuleConfigProcessorFactory.h in Headers */,
+				375F8DD7C1E0615E7FCBFDB7BDE805DD /* ModuleConfigurationProcessor.h in Headers */,
+				3A07D6EE48C51EBCF969630325444549 /* ModuleCreatorType.h in Headers */,
+				BD0FF431C4A7C4EDEE1917A9E96393C1 /* ModuleDefine.h in Headers */,
+				010F3D19B6833523DD42D15597DFF0E7 /* ModuleDefinition+Generator.h in Headers */,
+				369A290C439AFE1A89ECA4111B76D4CE /* ModuleDefinition+Internal.h in Headers */,
+				77D3FE10DC6C2A72EE006AF96CD7A4B7 /* ModuleDefinition.h in Headers */,
+				1ABCF504F980B06FAB223F4E85F4E11F /* ModuleExportType.h in Headers */,
+				8CD50422FC625298EC3E14FBF624C2D4 /* ModuleFactory.h in Headers */,
+				4889DB063DF9B4EFCA0738AF49CCDAB9 /* ModuleJsonConfigProcessor.h in Headers */,
+				97DF3FC97C9DB5D6C1AAFFE6D8F04494 /* ModuleProcessorType.h in Headers */,
+				DC7DA1D9015B1CDA7E5601E2400E6D41 /* ModulePropertyListProcessor.h in Headers */,
+				3DAE53A0AC53063917E55510C67493D9 /* ModuleProvider.h in Headers */,
+				6957A5C9C466C7C56E6B3030C7EBC61E /* ModuleResponse.h in Headers */,
+				503916A9A5083E07C35E9615894567F8 /* ModuleSetup.h in Headers */,
+				4A142D49BD425B893EEC75F673238409 /* ParamDefinition.h in Headers */,
+				BAD9256FC23ADFDD458B53695915A582 /* PropertyProcessor.h in Headers */,
+				3009AECD161D8ADF3868A065214CAD79 /* UINavigationController+ModuleAction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B102547A394E028F0B4FDDF6FD4EC6B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C1B4A2BC4AA1D658B99ACC8CF3879D /* Pods-enhydris_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDDEB7118A97DAF1FA4D2345D3F7D01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDE8C863E683EAC5A77FAC06DD5207A /* Pods-enhydris_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F10EC2D21BB6B8F7A05F1E5168D28D7 /* Enhydris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87195C35770D78A1078A6FF8989010E /* Build configuration list for PBXNativeTarget "Enhydris" */;
+			buildPhases = (
+				688C34379F0A52D3B6CD11164AA28671 /* Headers */,
+				CE1AAA3B4742B499CC3C9864892A4508 /* Sources */,
+				85238C6CFD5F6E89579CF5E50D1A16E8 /* Frameworks */,
+				BE69DC7A7DCBF67EED492F0354E4B15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enhydris;
+			productName = Enhydris;
+			productReference = EB4119A55DBD8C27C593CA1BE0A60E68 /* Enhydris.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7255A6AF955275894E625DCFCFB88F6F /* Pods-enhydris_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1732B815E9877817F3F7AC43CACD7F2E /* Build configuration list for PBXNativeTarget "Pods-enhydris_Tests" */;
+			buildPhases = (
+				B102547A394E028F0B4FDDF6FD4EC6B4 /* Headers */,
+				58EC1FCE6E34A988EEF119E7653E3292 /* Sources */,
+				0040A9A799BB34064E55D9291D98D070 /* Frameworks */,
+				8E3FA086CBD103B3BB316A868A486E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFACE7F1A458B04C31F4F3E33D59DD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-enhydris_Tests";
+			productName = "Pods-enhydris_Tests";
+			productReference = 66193E5C26511020056828A1BD322520 /* Pods_enhydris_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		941668452FD08DFE56FE500DC7EE1E1A /* Pods-enhydris_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEF6B95F651B1CEFADCB4D55F6E0B76 /* Build configuration list for PBXNativeTarget "Pods-enhydris_Example" */;
+			buildPhases = (
+				CCDDEB7118A97DAF1FA4D2345D3F7D01 /* Headers */,
+				9F9A61688C1EA29FCFE0E1DA32CDF432 /* Sources */,
+				884685B0B5BD23BE9A683366225C24C4 /* Frameworks */,
+				8F04232B8065D0A19BC6CE8FA501BCB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DA0EEA4B4DF839DBC2BCA9E35A8E59 /* PBXTargetDependency */,
+			);
+			name = "Pods-enhydris_Example";
+			productName = "Pods-enhydris_Example";
+			productReference = 88A9E30856FB857A34845CA463E0911A /* Pods_enhydris_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A799E0314E28D2AB7FC1172ED3661955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F10EC2D21BB6B8F7A05F1E5168D28D7 /* Enhydris */,
+				941668452FD08DFE56FE500DC7EE1E1A /* Pods-enhydris_Example */,
+				7255A6AF955275894E625DCFCFB88F6F /* Pods-enhydris_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3FA086CBD103B3BB316A868A486E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F04232B8065D0A19BC6CE8FA501BCB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE69DC7A7DCBF67EED492F0354E4B15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58EC1FCE6E34A988EEF119E7653E3292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BC6FD29521A077696102C46B0DE9CF /* Pods-enhydris_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9A61688C1EA29FCFE0E1DA32CDF432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6783371EC63A19577562C927FBF52E1 /* Pods-enhydris_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1AAA3B4742B499CC3C9864892A4508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA2AE889EE2DBB73004C8CD4EFF9B6F /* AutoDescribe.m in Sources */,
+				798573B5E854A796B5FD561B3EB4A9C1 /* AutoInject.m in Sources */,
+				698C31A146E6CAFC5388C0F8853A04B7 /* AutoInjectFactoryProcessor.m in Sources */,
+				A229DB0F423EC6609F798AEFEB8F295A /* Enhydris-dummy.m in Sources */,
+				8C92B3B3EA777ADE2653C74EAE7F2C9F /* MethodDefinition.m in Sources */,
+				969A6C788E023FABE3432C9CDF88BC8E /* ModuleAutoInjectToProperty.m in Sources */,
+				5074C61DFBC60CDA8783662DDB41C8E4 /* ModuleConfig.m in Sources */,
+				A87FFA93CA9A2EB6B2B11E8FEC8F6B91 /* ModuleConfigCollector.m in Sources */,
+				A011F8D21A135F527E496987F4B5BA83 /* ModuleConfigProcessorFactory.m in Sources */,
+				2BE4A4EFECC4056553D51647A2F87075 /* ModuleConfigurationProcessor.m in Sources */,
+				CDAF68265420CC8163410D5AF13A2889 /* ModuleDefine.m in Sources */,
+				5025444E64BAB1C0F6ED45D46C699A85 /* ModuleDefinition+Generator.m in Sources */,
+				0EE34A56F549184009840DE366A3B915 /* ModuleDefinition+Internal.m in Sources */,
+				D221165D1750E38218E4F030005872C0 /* ModuleDefinition.m in Sources */,
+				0A8766621085E6EEFC7BAE36BF3BBDAC /* ModuleFactory.m in Sources */,
+				32AD2BF4CD8D4A6D7A2400588230B886 /* ModuleJsonConfigProcessor.m in Sources */,
+				D4C8BF43B23CD709BD3E93C4582236F0 /* ModulePropertyListProcessor.m in Sources */,
+				0964F60B75333351856EBC4A62FCFB3C /* ModuleProvider.m in Sources */,
+				89511B245A7E8C8A7435EE2966C9E872 /* ModuleResponse.m in Sources */,
+				32DE5D272C292C15E3A2C761EA79242B /* ModuleSetup.m in Sources */,
+				D6A4A6B155759B69FECA8DC1AADE5EEA /* ParamDefinition.m in Sources */,
+				106CC0BF1E260DF9B9230C7F55DC3D61 /* PropertyProcessor.m in Sources */,
+				E192E7A52F68659D47DA371BBB422003 /* UINavigationController+ModuleAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFACE7F1A458B04C31F4F3E33D59DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-enhydris_Example";
+			target = 941668452FD08DFE56FE500DC7EE1E1A /* Pods-enhydris_Example */;
+			targetProxy = 43B8D0FD2027A72208F7A12AA8647246 /* PBXContainerItemProxy */;
+		};
+		A6DA0EEA4B4DF839DBC2BCA9E35A8E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Enhydris;
+			target = 0F10EC2D21BB6B8F7A05F1E5168D28D7 /* Enhydris */;
+			targetProxy = 9551D5067C0FF2BB50FE347D4D452418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		044BE2555FCCFFB978ADCAE641FD2A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373920A2967A2C8DEB3D19D03C28985B /* Pods-enhydris_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-enhydris_Tests/Pods-enhydris_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-enhydris_Tests/Pods-enhydris_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06C576744D37E676C5B61203732409A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD8E7376719FE88067B02C149FD55AD /* Pods-enhydris_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-enhydris_Example/Pods-enhydris_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-enhydris_Example/Pods-enhydris_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		53BDE78157276400F240468500022383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089EA3A3DECEB7642AEF6FFCE9BA3216 /* Pods-enhydris_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-enhydris_Tests/Pods-enhydris_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-enhydris_Tests/Pods-enhydris_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E2FD3A4877E1287032F64CE4D45557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C753DEBD3D034C90B4AF3EA3A037D3 /* Enhydris.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Enhydris/Enhydris-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Enhydris/Enhydris-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Enhydris/Enhydris.modulemap";
+				PRODUCT_MODULE_NAME = Enhydris;
+				PRODUCT_NAME = Enhydris;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97928314AB0FE0BF3336C98B291FA935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C753DEBD3D034C90B4AF3EA3A037D3 /* Enhydris.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Enhydris/Enhydris-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Enhydris/Enhydris-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Enhydris/Enhydris.modulemap";
+				PRODUCT_MODULE_NAME = Enhydris;
+				PRODUCT_NAME = Enhydris;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6749CAE35132AB03E62723BF9846CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DB25503313D4DF77C17B4E59115DA8 /* Pods-enhydris_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-enhydris_Example/Pods-enhydris_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-enhydris_Example/Pods-enhydris_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1732B815E9877817F3F7AC43CACD7F2E /* Build configuration list for PBXNativeTarget "Pods-enhydris_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044BE2555FCCFFB978ADCAE641FD2A35 /* Debug */,
+				53BDE78157276400F240468500022383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEF6B95F651B1CEFADCB4D55F6E0B76 /* Build configuration list for PBXNativeTarget "Pods-enhydris_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C576744D37E676C5B61203732409A0 /* Debug */,
+				E6749CAE35132AB03E62723BF9846CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87195C35770D78A1078A6FF8989010E /* Build configuration list for PBXNativeTarget "Enhydris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2FD3A4877E1287032F64CE4D45557D /* Debug */,
+				97928314AB0FE0BF3336C98B291FA935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Enhydris (0.1.0)
+
+DEPENDENCIES:
+  - Enhydris (from `../`)
+
+EXTERNAL SOURCES:
+  Enhydris:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Enhydris: cf8d6fbeadab7a507fcb7287ceace388e942917b
+
+PODFILE CHECKSUM: e1affc3040c6d5e3b670ab279eff83d74bf1188a
+
+COCOAPODS: 1.8.4

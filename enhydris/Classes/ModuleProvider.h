@@ -12,8 +12,6 @@
 
 @interface ModuleProvider : NSObject
 
-+ (void)setUp;
-
 /**
  * 此方法获取被注册协议的实现
  * @param aProtocol     协议
@@ -67,3 +65,7 @@
 + (BOOL)hasWeakRef:(Protocol *)aProtocol;
 
 @end
+
+
+#define  weak_obj(type, instance) \
+  __weak  id <type> instance = [ModuleProvider request:@protocol(type)].object; \

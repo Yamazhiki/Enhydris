@@ -7,19 +7,8 @@
 #import "ModuleFactory.h"
 #import <objc/runtime.h>
 
-static NSMutableDictionary<NSString *, ModuleDefinition * > *instancePlaceholder;
-static NSMutableDictionary<NSString *, NSObject *> *container;
-static NSMapTable<NSString *, NSObject *> *weakRef;
 
-
-@implementation ModuleProvider {
-
-}
-
-+ (void)setUp {
-    [ModuleFactory.defaultFactory setUp];
-
-}
+@implementation ModuleProvider
 
 + (id)request:(Protocol *)aProtocol {
     return [self request:aProtocol params:nil];

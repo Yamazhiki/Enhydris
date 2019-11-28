@@ -1,0 +1,6 @@
+framework module Pods_enhydris_Example {
+  umbrella header "Pods-enhydris_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
