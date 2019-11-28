@@ -96,7 +96,6 @@
 		0F248239AA70B8CBE5A7F332F8ABC8AE /* ModulePropertyListProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModulePropertyListProcessor.m; sourceTree = "<group>"; };
 		13DE7E36EE195D378DBD66604A216DDB /* Pods-enhydris_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enhydris_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1CB62299374966297EED9F76112FF998 /* Pods-enhydris_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-enhydris_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2910ECF8D4BC458B4FF1D97037797A37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2C5DA21C963E51F2AE1C42E4B58F8E3F /* AutoInjectFactoryProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoInjectFactoryProcessor.m; sourceTree = "<group>"; };
 		2D8C28E02A4B97501819AEF59AFF2795 /* ModuleProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleProvider.h; path = enhydris/Classes/ModuleProvider.h; sourceTree = "<group>"; };
 		2E34900F76B5D2E953AE59FE414DF1A8 /* AutoInject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoInject.h; sourceTree = "<group>"; };
@@ -108,6 +107,7 @@
 		392C39ED16215BD8639FAA485D8B4DD4 /* AutoDescribe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoDescribe.h; sourceTree = "<group>"; };
 		3D3283D5590B0F2A90510ED9C24CD155 /* Enhydris-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Enhydris-Info.plist"; sourceTree = "<group>"; };
 		42480F8B0E86FEA632B724DC074B35E8 /* ModuleConfigProcessorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleConfigProcessorFactory.h; sourceTree = "<group>"; };
+		44ABAE78386CE95308AFA138E502C5A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4750D44E450FC8513449F1D7D65CF90B /* ModuleConfigurationProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleConfigurationProcessor.h; sourceTree = "<group>"; };
 		4C11F9DF588F97A922A2B2682EFB4E99 /* Enhydris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Enhydris-dummy.m"; sourceTree = "<group>"; };
 		4C1C1B8B2C11D006336389E4B89D55F3 /* Pods-enhydris_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-enhydris_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -122,6 +122,8 @@
 		6918DD7E54576760902CB4B0340E51FA /* Pods-enhydris_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E2D7EB7EBEA824654479485EA48B192 /* ModuleJsonConfigProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleJsonConfigProcessor.h; sourceTree = "<group>"; };
 		714929BD3FEEE4F46DB714778F88C6F8 /* MainViewControllerType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainViewControllerType.h; sourceTree = "<group>"; };
+		73412F88F71560C6D1CDFC1955DA79C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B3F5C0606FEB1E43182F7505BEB64A5 /* Enhydris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Enhydris.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		88A9E30856FB857A34845CA463E0911A /* Pods_enhydris_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_enhydris_Example.framework; path = "Pods-enhydris_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3AF1E5F6457025DC9EC51EFE9400D5 /* ModuleCreatorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleCreatorType.h; path = enhydris/Classes/ModuleCreatorType.h; sourceTree = "<group>"; };
 		8F43C51441C72D81DAEE12E24D11F037 /* ModuleSetup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleSetup.m; sourceTree = "<group>"; };
@@ -143,7 +145,6 @@
 		B6624678C4D50DC0AC61C77E4450ADA0 /* ModuleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleFactory.h; sourceTree = "<group>"; };
 		B6D09509BA7415FF73CE6A7795304D79 /* ModuleDefinition+Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Generator.h"; sourceTree = "<group>"; };
 		B870299EED94D3505D1FF2FF78204C49 /* Pods-enhydris_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-enhydris_Tests.modulemap"; sourceTree = "<group>"; };
-		C10F2156F7BB785FB1803DD14B0009E7 /* Enhydris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = file.podspec; path = Enhydris.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1DCA663E36EF9D508C16D88EB1CC808 /* Pods-enhydris_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-enhydris_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C6FA575809007D22741B25DE189BE436 /* ModuleConfigCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigCollector.m; sourceTree = "<group>"; };
 		C801EC84FBC0A8A247E509E418C7BF95 /* ModuleDefinition+Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Generator.m"; sourceTree = "<group>"; };
@@ -154,7 +155,6 @@
 		D7735E511EFE15B040BFD33FB94A4533 /* AutoInjectFactoryProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoInjectFactoryProcessor.h; sourceTree = "<group>"; };
 		D87E2E72B6F2764C47C689D93EB30694 /* Pods-enhydris_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Example-Info.plist"; sourceTree = "<group>"; };
 		DF92C5DF50F529987787A0DAB91F64BA /* Pods-enhydris_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enhydris_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFF1BEF70E6A3BAA42893455D1BE241B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E6794459CB6323F2E83CBCD0E3D7CB58 /* ModuleProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleProvider.m; path = enhydris/Classes/ModuleProvider.m; sourceTree = "<group>"; };
 		EB4119A55DBD8C27C593CA1BE0A60E68 /* Enhydris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Enhydris.framework; path = Enhydris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED803133A4AC5BD56C5516F33CCF46C1 /* ModuleDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleDefine.m; path = enhydris/Classes/ModuleDefine.m; sourceTree = "<group>"; };
@@ -219,16 +219,6 @@
 			path = "Target Support Files/Pods-enhydris_Example";
 			sourceTree = "<group>";
 		};
-		4315BBC36609211F41365780ED394A56 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C10F2156F7BB785FB1803DD14B0009E7 /* Enhydris.podspec */,
-				DFF1BEF70E6A3BAA42893455D1BE241B /* LICENSE */,
-				2910ECF8D4BC458B4FF1D97037797A37 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4CE237E24F79CD308E006052C3B84AA0 /* Definition */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +232,16 @@
 			);
 			name = Definition;
 			path = enhydris/Classes/Definition;
+			sourceTree = "<group>";
+		};
+		4D7C766517FBBB8D21FCE9CBF6481435 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F5C0606FEB1E43182F7505BEB64A5 /* Enhydris.podspec */,
+				73412F88F71560C6D1CDFC1955DA79C9 /* LICENSE */,
+				44ABAE78386CE95308AFA138E502C5A5 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5AF279A62D3BB035CAAD18BB767A638B /* Support Files */ = {
@@ -354,7 +354,7 @@
 				4CE237E24F79CD308E006052C3B84AA0 /* Definition */,
 				B3A519843AFCCD85A1F6B7AF66A4E822 /* Factory */,
 				A43B6035A6C1D2F20EEC10A35D3D597B /* Inject */,
-				4315BBC36609211F41365780ED394A56 /* Pod */,
+				4D7C766517FBBB8D21FCE9CBF6481435 /* Pod */,
 				5AF279A62D3BB035CAAD18BB767A638B /* Support Files */,
 				CBFACFA52A643BE5F02CBF69C00A6699 /* Utils */,
 			);

@@ -1,5 +1,5 @@
 PODS:
-  - Enhydris (0.1.0)
+  - Enhydris (0.2.0)
 
 DEPENDENCIES:
   - Enhydris (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Enhydris: cf8d6fbeadab7a507fcb7287ceace388e942917b
+  Enhydris: 5746baf65b4ede59c9ceb0ec5dcd8aafc829b214
 
 PODFILE CHECKSUM: e1affc3040c6d5e3b670ab279eff83d74bf1188a
 

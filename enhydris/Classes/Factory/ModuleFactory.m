@@ -9,7 +9,6 @@
 #import "ModuleDefinition.h"
 #import "ModuleResponse.h"
 #import "AutoDescribe.h"
-#import <UIKit/UIKit.h>
 
 static NSString *ModuleScheme = @"module";
 
@@ -40,6 +39,7 @@ static NSString *ModuleScheme = @"module";
     void (*originalImp)(id, SEL, id) = (void (*)(id, SEL, id)) method_getImplementation(method);
 
     IMP adjustedImp = imp_implementationWithBlock(^(id instance, id delegate) {
+        originalImp(instance, sel, delegate);
         [self.defaultFactory setUp];
     });
 
